@@ -1,0 +1,6 @@
+env: "local" # dev, prod
+storage_path: "./storage/soyo.db"
+token_ttl: 1h
+grpc:
+  port: 44044
+  timeout: 10h # prod: 5s
